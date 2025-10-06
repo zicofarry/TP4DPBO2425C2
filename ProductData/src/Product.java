@@ -2,12 +2,14 @@ public class Product {
     private String id;
     private String nama;
     private double harga;
+    private int stok;
     private String kategori;
 
-    public Product(String id, String nama, double harga, String kategori) {
+    public Product(String id, String nama, double harga, int stok, String kategori) {
         this.id = id;
         this.nama = nama;
         this.harga = harga;
+        this.stok = stok;
         this.kategori = kategori;
     }
 
@@ -21,6 +23,10 @@ public class Product {
 
     public void setHarga(double harga) {
         this.harga = harga;
+    }
+
+    public void setStok(int stok) {
+        this.stok = stok;
     }
 
     public void setKategori(String kategori) {
@@ -37,6 +43,10 @@ public class Product {
 
     public double getHarga() {
         return this.harga;
+    }
+
+    public int getStok() {
+        return this.stok;
     }
 
     public String getKategori() {
