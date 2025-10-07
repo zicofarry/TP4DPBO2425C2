@@ -28,15 +28,16 @@ Program mencakup __2__ class, yaitu __Product__ dan __ProductMenu__. Berikut atr
   - listProduct
 
 # Penjelasan
-Setelah program dijalankan, akan muncul window dengan spesifikasi:
-- input form untuk `id`, `nama`, `harga`, `stok`, dan `Kategori`,
-- button untuk menambahkan data produk ("Add") jika form kosong diisi,
-- button untuk membatalkan input pada form ("Cancel"), dan
-- tabel berisi data produk dengan atribut yang telah disebutkan di atas.
+Setelah program dijalankan, akan muncul sebuah jendela yang berisi:
+- formulir input untuk `id`, `nama`, `harga`, `stok`, dan `kategori`,
+- tombol __Add__ untuk menambahkan produk baru ketika form diisi,
+- tombol __Cancel__ untuk membatalkan input pada form, serta
+- tabel yang menampilkan daftar produk dengan atribut-atribut tersebut.
 
-Pengguna dapat mengisi input form dan klik "Add" button untuk menambahkan data produk pada tabel, atau memilih data produk pada tabel untuk melihat detail-nya pada input form. Data produk yang ditampilkan pada input form dapat diubah atau dihapus oleh pengguna menggunakan "Update" button atau "Delete" button yang akan muncul setelah pengguna memilih data produk pada tabel.
+Pengguna dapat mengisi form lalu menekan tombol __Add__ untuk menambahkan data produk ke dalam tabel. Selain itu, pengguna juga bisa memilih salah satu produk pada tabel untuk menampilkan detailnya di form. Setelah data produk muncul di form, pengguna dapat memperbarui atau menghapusnya menggunakan tombol __Update__ atau __Delete__ yang akan aktif setelah data dipilih.
 
-Pada input form yang terisi oleh data produk pada tabel, pengguna dapat mengubah data tersebut dan klik "Update" button untuk mengubah data produk yang dipilih pada tabel. Jika pengguna memilih "Delete" button, maka akan muncul form untuk mengkonfirmasi aksi penghapusan, lalu data akan dihapus jika pengguna mengklik "Yes" button.
+Jika pengguna mengubah nilai pada form dan menekan tombol __Update__, maka data produk yang dipilih akan diperbarui di tabel. Sementara itu, ketika tombol __Delete__ ditekan, akan muncul jendela konfirmasi penghapusan, dan data produk akan dihapus apabila pengguna memilih tombol __Yes__.
+
 
 # Dokumentasi
 <!-- https://github.com/user-attachments/assets/3b4e8911-f48d-4bfc-907c-a3f3a9330cbd -->
