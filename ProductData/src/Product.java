@@ -4,13 +4,15 @@ public class Product {
     private double harga;
     private int stok;
     private String kategori;
+    private int kualitas;
 
-    public Product(String id, String nama, double harga, int stok, String kategori) {
+    public Product(String id, String nama, double harga, int stok, String kategori, int kualitas) {
         this.id = id;
         this.nama = nama;
         this.harga = harga;
         this.stok = stok;
         this.kategori = kategori;
+        this.kualitas = kualitas;
     }
 
     public void setId(String id) {
@@ -33,6 +35,10 @@ public class Product {
         this.kategori = kategori;
     }
 
+    public void setKualitas(int kualitas) {
+        this.kualitas = kualitas;
+    }
+
     public String getId() {
         return this.id;
     }
@@ -51,5 +57,9 @@ public class Product {
 
     public String getKategori() {
         return this.kategori;
+    }
+
+    public int getKualitas() {
+        return this.kualitas;
     }
 }
