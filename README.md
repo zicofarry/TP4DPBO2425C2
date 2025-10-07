@@ -24,12 +24,13 @@ Program mencakup __2__ class, yaitu __Product__ dan __ProductMenu__. Berikut atr
   - Harga   
   - Stok
   - Kategori
+  - Kualitas
 - ProductMenu:
   - listProduct
 
 # Penjelasan
 Setelah program dijalankan, akan muncul sebuah jendela yang berisi:
-- formulir input untuk `id`, `nama`, `harga`, `stok`, dan `kategori`,
+- formulir input untuk `id`, `nama`, `harga`, `stok`, `kategori`, dan `kualitas`,
 - tombol __Add__ untuk menambahkan produk baru ketika form diisi,
 - tombol __Cancel__ untuk membatalkan input pada form, serta
 - tabel yang menampilkan daftar produk dengan atribut-atribut tersebut.
@@ -40,4 +41,7 @@ Jika pengguna mengubah nilai pada form dan menekan tombol __Update__, maka data 
 
 
 # Dokumentasi
-<!-- https://github.com/user-attachments/assets/3b4e8911-f48d-4bfc-907c-a3f3a9330cbd -->
+<div>
+    <a>Klik untuk melihat vidio dokumentasi</a><br><br>
+    <a href="https://youtu.be/yxzMiZ1A3Ds"><img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
+</div>
